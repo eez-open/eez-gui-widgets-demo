@@ -1,0 +1,6 @@
+[submodule "eez"]
+	path = eez-framework
+	url = https://github.com/eez-open/eez-framework
+[submodule "eez-framework"]
+	path = eez-framework
+	url = https://github.com/eez-open/eez-framework
