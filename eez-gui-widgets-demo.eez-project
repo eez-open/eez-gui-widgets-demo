@@ -7181,7 +7181,7 @@
                         "height": 60,
                         "customInputs": [],
                         "customOutputs": [],
-                        "data": "Flow.getBitmap(flags[$index])",
+                        "data": "Flow.getBitmapIndex(flags[$index])",
                         "style": {
                           "objID": "5b38e3c4-1cba-45e5-8835-b08aed963ad9",
                           "useStyle": "default",
@@ -7189,7 +7189,11 @@
                         },
                         "timeline": [],
                         "eventHandlers": [],
-                        "bitmap": ""
+                        "bitmap": "",
+                        "defaultStyle": {
+                          "objID": "8a21612d-d9c3-f25f-4269-ec24b9487791",
+                          "childStyles": []
+                        }
                       }
                     ],
                     "layout": "static"
