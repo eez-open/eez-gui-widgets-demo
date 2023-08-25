@@ -97,7 +97,8 @@ enum FontsEnum {
     FONT_ID_ICONS = 4,
     FONT_ID_TEXT_XXL = 5,
     FONT_ID_TEXT_XL = 6,
-    FONT_ID_TEXT_L = 7
+    FONT_ID_TEXT_L = 7,
+    FONT_ID_TEXT_XS = 8
 };
 
 enum BitmapsEnum {
@@ -428,7 +429,15 @@ enum ColorsEnum {
 	COLOR_ID_CUSTOM_FFFFFF = 32,
 	COLOR_ID_CUSTOM_C0C0C0 = 33,
 	COLOR_ID_CUSTOM_808080 = 34,
-	COLOR_ID_CUSTOM_D5D5D5 = 35
+	COLOR_ID_CUSTOM_D5D5D5 = 35,
+	COLOR_ID_CUSTOM_FFEEC7 = 36,
+	COLOR_ID_CUSTOM_999 = 37,
+	COLOR_ID_CUSTOM_333 = 38,
+	COLOR_ID_CUSTOM_ED = 39,
+	COLOR_ID_CUSTOM_HITE = 40,
+	COLOR_ID_CUSTOM_FFB900 = 41,
+	COLOR_ID_CUSTOM_000FFF = 42,
+	COLOR_ID_CUSTOM_FF0000 = 43
 };
 
 enum PagesEnum {
@@ -444,7 +453,7 @@ enum PagesEnum {
     PAGE_ID_VISUALISER_DEMO = 9
 };
 
-extern const uint8_t assets[336409];
+extern const uint8_t assets[345805];
 
 } // namespace gui
 } // namespace eez
